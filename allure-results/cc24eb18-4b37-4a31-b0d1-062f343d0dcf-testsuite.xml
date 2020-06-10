@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591791922161' stop='1591791924097'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1591791922162' status='failed' stop='1591791924097'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591791922169' status='passed' stop='1591791923685'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cdef09db-ef7b-458d-af7e-beb2b1ac19ab-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591791923686' status='passed' stop='1591791923800'>
+                    <name>POST /session/:sessionId/window/current/size</name>
+                    <title>POST /session/:sessionId/window/current/size</title>
+                    <attachments>
+                        <attachment title='Request' source='43b617e4-d7e5-4bbd-98b7-69ac1f488aa6-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591791923802' status='passed' stop='1591791924051'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='31df2866-00bb-4e58-a2c7-5f8db31ea26f-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='6d8ae070-c57a-4414-a15a-6fcb0b5d50c2-attachment.json' type='application/json' size='282'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected [Function: elementErrorHandlerCallback] to be true</message>
+                <stack-trace>AssertionError: expected [Function: elementErrorHandlerCallback] to be true
+                    at Context.&lt;anonymous> (/Users/bend/Documents/GitHub/WebdriverIO-TypeScript-Boilerplate/test/example.spec.ts:8:40)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

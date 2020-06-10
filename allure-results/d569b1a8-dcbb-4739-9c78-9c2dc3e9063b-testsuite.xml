@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591789921034' stop='1591789925515'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1591789921036' status='failed' stop='1591789925514'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591789921048' status='passed' stop='1591789925481'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='99cae0ca-3c4d-458b-8a8c-09ad0c885e02-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591789925482' status='passed' stop='1591789925492'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='acc2a41e-6938-4711-b572-3e36ff256acc-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js' to equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'</message>
+                <stack-trace>AssertionError: expected 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js' to equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'
+                    at Context.&lt;anonymous> (/Users/bend/Documents/GitHub/WebdriverIO-TypeScript-Boilerplate/test/example.spec.ts:7:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

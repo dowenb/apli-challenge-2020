@@ -1,0 +1,5286 @@
+{
+  "inapplicable": [
+    {
+      "description": "Ensures <area> elements of image maps have alternate text",
+      "help": "Active <area> elements must have alternate text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/area-alt?application=axeAPI",
+      "id": "area-alt",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+      "help": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-dpub-role-fallback?application=axeAPI",
+      "id": "aria-dpub-role-fallback",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures every ARIA input field has an accessible name",
+      "help": "ARIA input fields have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-input-field-name?application=axeAPI",
+      "id": "aria-input-field-name",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures every ARIA toggle field has an accessible name",
+      "help": "ARIA toggle fields have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-toggle-field-name?application=axeAPI",
+      "id": "aria-toggle-field-name",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures <audio> elements have captions",
+      "help": "<audio> elements must have a captions track",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/audio-caption?application=axeAPI",
+      "id": "audio-caption",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.time-and-media",
+        "wcag2a",
+        "wcag121",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures <blink> elements are not used",
+      "help": "<blink> elements are deprecated and must not be used",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/blink?application=axeAPI",
+      "id": "blink",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.time-and-media",
+        "wcag2a",
+        "wcag222",
+        "section508",
+        "section508.22.j"
+      ]
+    },
+    {
+      "description": "Ensures <dl> elements are structured correctly",
+      "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script> or <template> elements",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/definition-list?application=axeAPI",
+      "id": "definition-list",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.structure",
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures <dt> and <dd> elements are contained by a <dl>",
+      "help": "<dt> and <dd> elements must be contained by a <dl>",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/dlitem?application=axeAPI",
+      "id": "dlitem",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.structure",
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures every id attribute value of active elements is unique",
+      "help": "IDs of active elements must be unique",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/duplicate-id-active?application=axeAPI",
+      "id": "duplicate-id-active",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.parsing",
+        "wcag2a",
+        "wcag411"
+      ]
+    },
+    {
+      "description": "Ensure that HTML elements with both valid lang and xml:lang attributes agree on the base language of the page",
+      "help": "HTML elements with lang and xml:lang must have the same base language",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/html-xml-lang-mismatch?application=axeAPI",
+      "id": "html-xml-lang-mismatch",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.language",
+        "wcag2a",
+        "wcag311"
+      ]
+    },
+    {
+      "description": "Ensures input buttons have discernible text",
+      "help": "Input buttons must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/input-button-name?application=axeAPI",
+      "id": "input-button-name",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures <input type=\"image\"> elements have alternate text",
+      "help": "Image buttons must have alternate text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/input-image-alt?application=axeAPI",
+      "id": "input-image-alt",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures presentational <table> elements do not use <th>, <caption> elements or the summary attribute",
+      "help": "Layout tables must not use data table elements",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/layout-table?application=axeAPI",
+      "id": "layout-table",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.semantics",
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures <marquee> elements are not used",
+      "help": "<marquee> elements are deprecated and must not be used",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/marquee?application=axeAPI",
+      "id": "marquee",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.parsing",
+        "wcag2a",
+        "wcag222"
+      ]
+    },
+    {
+      "description": "Ensures <meta http-equiv=\"refresh\"> is not used",
+      "help": "Timed refresh must not exist",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/meta-refresh?application=axeAPI",
+      "id": "meta-refresh",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.time",
+        "wcag2a",
+        "wcag2aaa",
+        "wcag221",
+        "wcag224",
+        "wcag325"
+      ]
+    },
+    {
+      "description": "Ensures <object> elements have alternate text",
+      "help": "<object> elements must have alternate text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/object-alt?application=axeAPI",
+      "id": "object-alt",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures [role='img'] elements have alternate text",
+      "help": "[role='img'] elements have an alternative text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/role-img-alt?application=axeAPI",
+      "id": "role-img-alt",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Elements that have scrollable content should be accessible by keyboard",
+      "help": "Ensure that scrollable region has keyboard access",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/scrollable-region-focusable?application=axeAPI",
+      "id": "scrollable-region-focusable",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "wcag2a",
+        "wcag211"
+      ]
+    },
+    {
+      "description": "Ensures that server-side image maps are not used",
+      "help": "Server-side image maps must not be used",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/server-side-image-map?application=axeAPI",
+      "id": "server-side-image-map",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag211",
+        "section508",
+        "section508.22.f"
+      ]
+    },
+    {
+      "description": "Ensure that each cell in a table using the headers refers to another cell in that table",
+      "help": "All cells in a table element that use the headers attribute must only refer to other cells of that same table",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/td-headers-attr?application=axeAPI",
+      "id": "td-headers-attr",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.tables",
+        "wcag2a",
+        "wcag131",
+        "section508",
+        "section508.22.g"
+      ]
+    },
+    {
+      "description": "Ensure that each table header in a data table refers to data cells",
+      "help": "All th elements and elements with role=columnheader/rowheader must have data cells they describe",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/th-has-data-cells?application=axeAPI",
+      "id": "th-has-data-cells",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.tables",
+        "wcag2a",
+        "wcag131",
+        "section508",
+        "section508.22.g"
+      ]
+    },
+    {
+      "description": "Ensures <video> elements have captions",
+      "help": "<video> elements must have captions",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/video-caption?application=axeAPI",
+      "id": "video-caption",
+      "impact": null,
+      "nodes": [],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag122",
+        "section508",
+        "section508.22.a"
+      ]
+    }
+  ],
+  "incomplete": [],
+  "passes": [
+    {
+      "description": "Ensures ARIA attributes are allowed for an element's role",
+      "help": "Elements must only use allowed ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-allowed-attr?application=axeAPI",
+      "id": "aria-allowed-attr",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-allowed-attr",
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "aria-unsupported-attr",
+              "impact": "critical",
+              "message": "ARIA attribute is supported",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures aria-hidden='true' is not present on the document body.",
+      "help": "aria-hidden='true' must not be present on the document body",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-hidden-body?application=axeAPI",
+      "id": "aria-hidden-body",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-hidden-body",
+              "impact": "critical",
+              "message": "No aria-hidden attribute is present on document body",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<body>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "body"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures aria-hidden elements do not contain focusable elements",
+      "help": "ARIA hidden element must not contain focusable elements",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-hidden-focus?application=axeAPI",
+      "id": "aria-hidden-focus",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [
+            {
+              "data": null,
+              "id": "focusable-disabled",
+              "impact": "serious",
+              "message": "No focusable elements contained within element",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "focusable-not-tabbable",
+              "impact": "serious",
+              "message": "No focusable elements contained within element",
+              "relatedNodes": []
+            }
+          ],
+          "any": [],
+          "html": "<pre aria-hidden=\"true\" style=\"position: absolute; visibility: hidden; white-space: pre; font-family: Lato, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "pre"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag412",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+      "help": "Required ARIA attributes must be provided",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-required-attr?application=axeAPI",
+      "id": "aria-required-attr",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-required-attr",
+              "impact": "critical",
+              "message": "All required ARIA attributes are present",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures elements with an ARIA role that require child roles contain them",
+      "help": "Certain ARIA roles must contain particular children",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-required-children?application=axeAPI",
+      "id": "aria-required-children",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-required-children",
+              "impact": "critical",
+              "message": "Required ARIA children are present",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+      "help": "Certain ARIA roles must be contained by particular parents",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-required-parent?application=axeAPI",
+      "id": "aria-required-parent",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-required-parent",
+              "impact": "critical",
+              "message": "Required ARIA parent role present",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures all elements with a role attribute use a valid value",
+      "help": "ARIA roles used must conform to valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-roles?application=axeAPI",
+      "id": "aria-roles",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "invalidrole",
+              "impact": "critical",
+              "message": "ARIA role is valid",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "abstractrole",
+              "impact": "serious",
+              "message": "Abstract roles are not used",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "unsupportedrole",
+              "impact": "critical",
+              "message": "ARIA role is supported",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures all ARIA attributes have valid values",
+      "help": "ARIA attributes must conform to valid values",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-valid-attr-value?application=axeAPI",
+      "id": "aria-valid-attr-value",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [
+            {
+              "data": null,
+              "id": "aria-valid-attr-value",
+              "impact": "critical",
+              "message": "ARIA attribute values are valid",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-errormessage",
+              "impact": "critical",
+              "message": "Uses a supported aria-errormessage technique",
+              "relatedNodes": []
+            }
+          ],
+          "any": [],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+      "help": "ARIA attributes must conform to valid names",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/aria-valid-attr?application=axeAPI",
+      "id": "aria-valid-attr",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-valid-attr",
+              "impact": "critical",
+              "message": "ARIA attribute name are valid",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412"
+      ]
+    },
+    {
+      "description": "Ensures buttons have discernible text",
+      "help": "Buttons must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/button-name?application=axeAPI",
+      "id": "button-name",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "1",
+              "id": "button-has-visible-text",
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<button class=\"active\">1</button>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".active"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "2",
+              "id": "button-has-visible-text",
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<button class=\"\">2</button>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "button:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "3",
+              "id": "button-has-visible-text",
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<button class=\"\">3</button>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".logoNavigation > button:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "x",
+              "id": "button-has-visible-text",
+              "impact": "critical",
+              "message": "Element has inner text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<button class=\"close\">x</button>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".close"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag412",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+      "help": "Page must have means to bypass repeated blocks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/bypass?application=axeAPI",
+      "id": "bypass",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "internal-link-present",
+              "impact": "serious",
+              "message": "Valid skip link found",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "header-present",
+              "impact": "serious",
+              "message": "Page has a header",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<html lang=\"\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.keyboard",
+        "wcag2a",
+        "wcag241",
+        "section508",
+        "section508.22.o"
+      ]
+    },
+    {
+      "description": "Ensures each HTML document contains a non-empty <title> element",
+      "help": "Documents must have <title> element to aid in navigation",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/document-title?application=axeAPI",
+      "id": "document-title",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "doc-has-title",
+              "impact": "serious",
+              "message": "Document has a non-empty <title> element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<html lang=\"\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag242"
+      ]
+    },
+    {
+      "description": "Ensures every id attribute value used in ARIA and in labels is unique",
+      "help": "IDs used in ARIA and labels must be unique",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/duplicate-id-aria?application=axeAPI",
+      "id": "duplicate-id-aria",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "search_input_react",
+              "id": "duplicate-id-aria",
+              "impact": "critical",
+              "message": "Document has no elements referenced with ARIA or labels that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#search_input_react"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "algolia-autocomplete-listbox-0",
+              "id": "duplicate-id-aria",
+              "impact": "critical",
+              "message": "Document has no elements referenced with ARIA or labels that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<span class=\"aa-dropdown-menu\" role=\"listbox\" id=\"algolia-autocomplete-listbox-0\" style=\"position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;\"><div class=\"aa-dataset-1\"></div></span>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#algolia-autocomplete-listbox-0"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.parsing",
+        "wcag2a",
+        "wcag411"
+      ]
+    },
+    {
+      "description": "Ensures every id attribute value is unique",
+      "help": "id attribute value must be unique",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/duplicate-id?application=axeAPI",
+      "id": "duplicate-id",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "twitter-wjs",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<script id=\"twitter-wjs\" src=\"https://platform.twitter.com/widgets.js\"></script>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#twitter-wjs"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "fblike",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<iframe src=\"https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwebdriver.io&amp;width=118&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=46&amp;appId=585739831492556\" width=\"118\" height=\"46\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allow=\"encrypted-media\" id=\"fblike\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#fblike"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "twitter-widget-1",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<iframe id=\"twitter-widget-1\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" class=\"twitter-share-button twitter-share-button-rendered twitter-tweet-button\" style=\"position: static; visibility: visible; width: 61px; height: 20px;\" title=\"Twitter Tweet Button\" src=\"https://platform.twitter.com/widgets/tweet_button.86df6234483a1fa251e365dd8643c136.en.html#dnt=false&amp;hashtags=webdriverio&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=https%3A%2F%2Fwebdriver.io%2F&amp;size=m&amp;text=WebdriverIO%20%C2%B7%20Next-gen%20browser%20and%20mobile%20automation%20test%20framework%20for%20Node.js&amp;time=1591789924954&amp;type=share&amp;url=https%3A%2F%2Fwebdriver.io%2F&amp;via=bromann\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#twitter-widget-1"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "twitter-widget-0",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<iframe id=\"twitter-widget-0\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" class=\"twitter-follow-button twitter-follow-button-rendered\" style=\"position: static; visibility: visible; width: 228px; height: 20px;\" title=\"Twitter Follow Button\" src=\"https://platform.twitter.com/widgets/follow_button.86df6234483a1fa251e365dd8643c136.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=webdriverio&amp;show_count=true&amp;show_screen_name=true&amp;size=m&amp;time=1591789924948\" data-screen-name=\"webdriverio\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#twitter-widget-0"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "companyUsage",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<div class=\"container paddingBottom paddingTop\" id=\"companyUsage\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#companyUsage"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "reactSupport",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<div class=\"container paddingBottom paddingTop\" id=\"reactSupport\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#reactSupport"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "applitools",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<div class=\"container lightBackground paddingBottom paddingTop\" id=\"applitools\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#applitools"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "footer",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<footer class=\"nav-footer\" id=\"footer\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#footer"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "back-to-top",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<div id=\"back-to-top\" class=\"hidden\"><svg viewBox=\"0 0 24 24\"><path d=\"M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z\"></path></svg></div>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#back-to-top"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": "rufous-sandbox",
+              "id": "duplicate-id",
+              "impact": "minor",
+              "message": "Document has no static elements that share the same id attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<iframe id=\"rufous-sandbox\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" style=\"position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;\" title=\"Twitter analytics iframe\"></iframe>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#rufous-sandbox"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.parsing",
+        "wcag2a",
+        "wcag411"
+      ]
+    },
+    {
+      "description": "Ensures form field does not have multiple label elements",
+      "help": "Form field must not have multiple label elements",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/form-field-multiple-labels?application=axeAPI",
+      "id": "form-field-multiple-labels",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "multiple-label",
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.forms",
+        "wcag2a",
+        "wcag332"
+      ]
+    },
+    {
+      "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+      "help": "Frames must have title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/frame-title?application=axeAPI",
+      "id": "frame-title",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has a title attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<iframe id=\"twitter-widget-1\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" class=\"twitter-share-button twitter-share-button-rendered twitter-tweet-button\" style=\"position: static; visibility: visible; width: 61px; height: 20px;\" title=\"Twitter Tweet Button\" src=\"https://platform.twitter.com/widgets/tweet_button.86df6234483a1fa251e365dd8643c136.en.html#dnt=false&amp;hashtags=webdriverio&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=https%3A%2F%2Fwebdriver.io%2F&amp;size=m&amp;text=WebdriverIO%20%C2%B7%20Next-gen%20browser%20and%20mobile%20automation%20test%20framework%20for%20Node.js&amp;time=1591789924954&amp;type=share&amp;url=https%3A%2F%2Fwebdriver.io%2F&amp;via=bromann\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#twitter-widget-1"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has a title attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<iframe id=\"twitter-widget-0\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" class=\"twitter-follow-button twitter-follow-button-rendered\" style=\"position: static; visibility: visible; width: 228px; height: 20px;\" title=\"Twitter Follow Button\" src=\"https://platform.twitter.com/widgets/follow_button.86df6234483a1fa251e365dd8643c136.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=webdriverio&amp;show_count=true&amp;show_screen_name=true&amp;size=m&amp;time=1591789924948\" data-screen-name=\"webdriverio\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            "#twitter-widget-0"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag241",
+        "wcag412",
+        "section508",
+        "section508.22.i"
+      ]
+    },
+    {
+      "description": "Ensures the lang attribute of the <html> element has a valid value",
+      "help": "<html> element must have a valid value for the lang attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/html-lang-valid?application=axeAPI",
+      "id": "html-lang-valid",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [],
+          "html": "<html lang=\"\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "valid-lang",
+              "impact": "serious",
+              "message": "Value of lang attribute is included in the list of valid languages",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.language",
+        "wcag2a",
+        "wcag311"
+      ]
+    },
+    {
+      "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+      "help": "Images must have alternate text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/image-alt?application=axeAPI",
+      "id": "image-alt",
+      "impact": "critical",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"https://travis-ci.org/webdriverio/webdriverio.svg?branch=master\" alt=\"Build Status\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[alt=\"Build\\ Status\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img alt=\"CodeCov\" src=\"https://codecov.io/gh/webdriverio/webdriverio/branch/master/graph/badge.svg\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[alt=\"CodeCov\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/google.png\" alt=\"Google\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"google\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/netflix.png\" alt=\"Netflix\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"netflix\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/microsoft.png\" alt=\"Microsoft\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"microsoft\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/mozilla.png\" alt=\"Mozilla\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"mozilla\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/buoyant.png\" alt=\"Buoyant\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"buoyant\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/sap.png\" alt=\"SAP\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"sap\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/hilton.png\" alt=\"Hilton\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"hilton\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/github.png\" alt=\"GitHub\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"github\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/oxford.png\" alt=\"Oxford University Press\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"oxford\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/bbva.png\" alt=\"BBVA\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"bbva\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/gopro.png\" alt=\"GoPro\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"gopro\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/algolia.png\" alt=\"Algolia\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"algolia\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/financialtimes.png\" alt=\"Financial Times\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"financialtimes\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/zendesk.png\" alt=\"Zendesk\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"zendesk\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/1und1.png\" alt=\"1&amp;1\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"\\31 und1\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/avira.png\" alt=\"Avira\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"avira\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/deloitte.jpg\" alt=\"Deloitte\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"deloitte\\.jpg\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/logos/rabobank.png\" alt=\"Rabobank\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"rabobank\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img class=\"frameworkLogos\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K\" alt=\"\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[alt=\"\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img class=\"frameworkLogos\" src=\"/img/icons/vue.png\" alt=\"Vue.js\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"vue\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img class=\"frameworkLogos\" src=\"/img/icons/angular.svg\" alt=\"Angular\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"angular\\.svg\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img class=\"frameworkLogos\" src=\"/img/icons/polymer.svg\" alt=\"Polymer\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"polymer\\.svg\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img class=\"install\" src=\"/img/install.png\" alt=\"Install WebdriverIO Command\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".install"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has a title attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/applitools-test-code.png\" alt=\"alt text\" title=\"Applitools Test\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"applitools-test-code\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/twitter-profile.png\" alt=\"WebdriverIO\" width=\"66\" height=\"58\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"twitter-profile\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element has an alt attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<img src=\"/img/open-jsf-logo.svg\" alt=\"OpenJS Foundation\" width=\"170\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "alt-space-value",
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "img[src$=\"open-jsf-logo\\.svg\"]"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures every form element has a label",
+      "help": "Form elements must have labels",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/label?application=axeAPI",
+      "id": "label",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute exists and references elements that are visible to screen readers",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has a title attribute",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<input type=\"text\" id=\"search_input_react\" placeholder=\"Search\" title=\"Search\" class=\"aa-input\" autocomplete=\"off\" spellcheck=\"false\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-labelledby=\"search_input_react\" aria-owns=\"algolia-autocomplete-listbox-0\" dir=\"auto\" style=\"position: relative; vertical-align: top;\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "hidden-explicit-label",
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "#search_input_react"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.forms",
+        "wcag2a",
+        "wcag332",
+        "wcag131",
+        "section508",
+        "section508.22.n"
+      ]
+    },
+    {
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/link-name?application=axeAPI",
+      "id": "link-name",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/\"><h2 class=\"headerTitle\">WebdriverIO</h2></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "header > a[href=\"\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/gettingstarted.html\" target=\"_self\">Docs</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "li:nth-child(1) > a[href$=\"gettingstarted\\.html\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/api.html\" target=\"_self\">API</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"api\\.html\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/help.html\" target=\"_self\">Help</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"help\\.html\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/versions.html\" target=\"_self\">Versions</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"versions\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/blog/\" target=\"_self\">Blog</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"blog\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/contribute.html\" target=\"_self\">Contribute</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"contribute\\.html\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://github.com/webdriverio/webdriverio\" target=\"_self\">GitHub</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "li:nth-child(8) > a[target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://travis-ci.org/webdriverio/webdriverio\"><img src=\"https://travis-ci.org/webdriverio/webdriverio.svg?branch=master\" alt=\"Build Status\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".badges > a:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://codecov.io/gh/webdriverio/webdriverio\"><img alt=\"CodeCov\" src=\"https://codecov.io/gh/webdriverio/webdriverio/branch/master/graph/badge.svg\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".badges > a:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a class=\"button\" href=\"/docs/gettingstarted.html\" target=\"_self\">Get Started</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".button[href$=\"gettingstarted\\.html\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a class=\"button\" href=\"#watch\" target=\"_self\">Watch Talks</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".button[href$=\"\\#watch\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a class=\"button\" href=\"https://leanpub.com/webapp-testing-guidebook\" target=\"_self\">Read the Book</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".pluginWrapper.buttonWrapper:nth-child(3) > .button[target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a class=\"button\" href=\"https://gitter.im/webdriverio/webdriverio\" target=\"_self\">Support</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".pluginWrapper.buttonWrapper:nth-child(4) > .button[target=\"_self\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://w3c.github.io/webdriver/\"><strong>WebDriver Protocol</strong></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".fourByGridBlock.imageAlignTop.alignCenter:nth-child(2) > .blockContent > div > span > p > a:nth-child(1)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://chromedevtools.github.io/devtools-protocol/\"><strong>Chrome DevTools Protocol</strong></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".fourByGridBlock.imageAlignTop.alignCenter:nth-child(2) > .blockContent > div > span > p > a:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://pptr.dev/\">Puppeteer</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".fourByGridBlock.imageAlignTop.alignCenter:nth-child(2) > .blockContent > div > span > p > a[href$=\"pptr\\.dev\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://developers.google.com/blockly/\" target=\"_blank\"><img src=\"/img/logos/google.png\" alt=\"Google\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "li:nth-child(1) > a[target=\"_blank\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://netflix.com/\" target=\"_blank\"><img src=\"/img/logos/netflix.png\" alt=\"Netflix\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"netflix\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.microsoft.com/\" target=\"_blank\"><img src=\"/img/logos/microsoft.png\" alt=\"Microsoft\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"microsoft\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.mozilla.org/\" target=\"_blank\"><img src=\"/img/logos/mozilla.png\" alt=\"Mozilla\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"mozilla\\.org\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://buoyant.io/\" target=\"_blank\"><img src=\"/img/logos/buoyant.png\" alt=\"Buoyant\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"buoyant\\.io\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.sap.com/\" target=\"_blank\"><img src=\"/img/logos/sap.png\" alt=\"SAP\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"sap\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.hilton.com/\" target=\"_blank\"><img src=\"/img/logos/hilton.png\" alt=\"Hilton\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"hilton\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.electronjs.org/spectron\" target=\"_blank\"><img src=\"/img/logos/github.png\" alt=\"GitHub\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "li:nth-child(8) > a[target=\"_blank\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://global.oup.com/\" target=\"_blank\"><img src=\"/img/logos/oxford.png\" alt=\"Oxford University Press\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"global\\.oup\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.bbva.com/\" target=\"_blank\"><img src=\"/img/logos/bbva.png\" alt=\"BBVA\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"bbva\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://gopro.com/\" target=\"_blank\"><img src=\"/img/logos/gopro.png\" alt=\"GoPro\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"gopro\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.algolia.com/\" target=\"_blank\"><img src=\"/img/logos/algolia.png\" alt=\"Algolia\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"algolia\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.ft.com/\" target=\"_blank\"><img src=\"/img/logos/financialtimes.png\" alt=\"Financial Times\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "li:nth-child(13) > a[href$=\"ft\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.zendesk.com/\" target=\"_blank\"><img src=\"/img/logos/zendesk.png\" alt=\"Zendesk\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"zendesk\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.1und1.de/\" target=\"_blank\"><img src=\"/img/logos/1und1.png\" alt=\"1&amp;1\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"\\31 und1\\.de\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.avira.com/\" target=\"_blank\"><img src=\"/img/logos/avira.png\" alt=\"Avira\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"avira\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://deloitte.com\" target=\"_blank\"><img src=\"/img/logos/deloitte.jpg\" alt=\"Deloitte\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"deloitte\\.com\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.rabobank.com/\" target=\"_blank\"><img src=\"/img/logos/rabobank.png\" alt=\"Rabobank\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"rabobank\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.youtube.com/watch?v=jOmvPpzLMf8&amp;feature=youtu.be&amp;t=3204\">The Nuts and Bolts of WebdriverIO</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".videoContainer > .blockContent > div:nth-child(2) > div > span > p > a:nth-child(1)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://twitter.com/bromann\">@bromann</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"bromann\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://seleniumcamp.com/\">Selenium Camp 2020</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"seleniumcamp\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.youtube.com/user/medigerati/videos?flow=grid&amp;sort=p&amp;view=0\">YouTube Channel</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(2) > div > span > p > a:nth-child(4)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://twitter.com/klamping\">Klamping</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"klamping\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a class=\"button\" href=\"https://www.youtube.com/user/medigerati/videos\" target=\"_blank\" rel=\"noopener noreferrer\">Watch more videos</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[rel=\"noopener\\ noreferrer\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://reactjs.org/\">React</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "p:nth-child(1) > a[href$=\"reactjs\\.org\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://angular.io/\">Angular</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "p:nth-child(1) > a[href$=\"angular\\.io\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.polymer-project.org/\">Polymer</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "#reactSupport > .wrapper > .gridBlock > .imageAlignRight.imageAlignSide.twoByGridBlock > .blockContent > div > span > p:nth-child(1) > a:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://vuejs.org/\">Vue.js</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "p:nth-child(1) > a[href$=\"vuejs\\.org\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/api/element/react$.html\"><code>react$</code></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"react\\$\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/api/element/shadow$.html\"><code>$shadow</code></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"shadow\\$\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM\">shadow DOM</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a:nth-child(9)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://vuejs.org/\"><img class=\"frameworkLogos\" src=\"/img/icons/vue.png\" alt=\"Vue.js\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "p:nth-child(3) > a[href$=\"vuejs\\.org\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://angular.io/\"><img class=\"frameworkLogos\" src=\"/img/icons/angular.svg\" alt=\"Angular\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "p:nth-child(3) > a[href$=\"angular\\.io\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.polymer-project.org/\"><img class=\"frameworkLogos\" src=\"/img/icons/polymer.svg\" alt=\"Polymer\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "p:nth-child(3) > a:nth-child(4)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://w3c.github.io/webdriver/\">WebDriver</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".container.paddingBottom.paddingTop:nth-child(6) > .wrapper > .gridBlock > .imageAlignRight.imageAlignSide.twoByGridBlock > .blockContent > div > span > p > a:nth-child(1)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://chromedevtools.github.io/devtools-protocol/\">Chrome DevTools</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".container.paddingBottom.paddingTop:nth-child(6) > .wrapper > .gridBlock > .imageAlignRight.imageAlignSide.twoByGridBlock > .blockContent > div > span > p > a:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://pptr.dev/\">Puppeteer</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".imageAlignRight.imageAlignSide.twoByGridBlock > .blockContent > div > span > p > a[href$=\"pptr\\.dev\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://github.com/webdriverio/webdriverio/blob/master/examples/devtools/intercept.js\">examples</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".container.paddingBottom.paddingTop:nth-child(6) > .wrapper > .gridBlock > .imageAlignRight.imageAlignSide.twoByGridBlock > .blockContent > div > span > p > a:nth-child(4)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://applitools.com/\">Applitools Eyes</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"applitools\\.com\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://secure.actblue.com/donate/ms_blm_homepage_2019\">Black Lives Matter</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".blacklivesmatter > p > a:nth-child(1)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://support.eji.org/give/153413/#!/donation/checkout\">The Equal Justice Initiative</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".blacklivesmatter > p > a:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://www.naacpldf.org/\">NAACP Legal Defense and Education Fund</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"naacpldf\\.org\\/\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/\" class=\"nav-home\"><img src=\"/img/twitter-profile.png\" alt=\"WebdriverIO\" width=\"66\" height=\"58\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".nav-home"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/gettingstarted.html\">Getting Started</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(2) > a[href$=\"gettingstarted\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/api.html\">API Reference</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(2) > a[href$=\"api\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/contribute.html\">Contribute</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(2) > a[href$=\"contribute\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/help.html\">Help</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(2) > a[href$=\"help\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://stackoverflow.com/questions/tagged/webdriver-io\" target=\"_blank\" rel=\"noreferrer noopener\">Stack Overflow</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(3) > a[rel=\"noreferrer\\ noopener\"][target=\"_blank\"]:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://gitter.im/webdriverio/webdriverio\">Support Chat</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(3) > a:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://seleniumhq.slack.com/join/shared_invite/enQtODAwOTUzOTM5OTEwLTZjZjgzN2ExOTBmZGE0NjkwYzA2Nzc0MjczMGYwYjdiNGQ5YjI0ZjdjYjFhMjVlMjFkZWJmNDYyMmU1OTYyM2Y\">Slack</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(3) > a:nth-child(4)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://twitter.com/webdriverio\" target=\"_blank\" rel=\"noreferrer noopener\">Twitter</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[rel=\"noreferrer\\ noopener\"][target=\"_blank\"]:nth-child(5)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/docs/enterprise.html\">Tidelift Subscription</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"enterprise\\.html\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"/blog\">Blog</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[href$=\"blog\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://github.com/webdriverio/webdriverio\">GitHub</a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div:nth-child(4) > a:nth-child(4)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<a href=\"https://openjsf.org/projects/\" target=\"_blank\" rel=\"noreferrer noopener\" class=\"fbOpenSource\"><img src=\"/img/open-jsf-logo.svg\" alt=\"OpenJS Foundation\" width=\"170\"></a>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".fbOpenSource"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag412",
+        "wcag244",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures that lists are structured correctly",
+      "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/list?application=axeAPI",
+      "id": "list",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [],
+          "html": "<ul class=\"nav-site nav-site-internal\">",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "only-listitems",
+              "impact": "serious",
+              "message": "List element only has direct children that are allowed inside <li> elements",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".nav-site"
+          ]
+        },
+        {
+          "all": [],
+          "any": [],
+          "html": "<ul>",
+          "impact": null,
+          "none": [
+            {
+              "data": null,
+              "id": "only-listitems",
+              "impact": "serious",
+              "message": "List element only has direct children that are allowed inside <li> elements",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "div > ul"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.structure",
+        "wcag2a",
+        "wcag131"
+      ]
+    },
+    {
+      "description": "Ensures <li> elements are used semantically",
+      "help": "<li> elements must be contained in a <ul> or <ol>",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/listitem?application=axeAPI",
+      "id": "listitem",
+      "impact": null,
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"\"><a href=\"/docs/gettingstarted.html\" target=\"_self\">Docs</a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".nav-site > li:nth-child(1)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"\"><a href=\"/docs/api.html\" target=\"_self\">API</a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".nav-site > li:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"\"><a href=\"/help.html\" target=\"_self\">Help</a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".nav-site > li:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"\"><a href=\"/docs/versions.html\" target=\"_self\">Versions</a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".nav-site > li:nth-child(4)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"\"><a href=\"/blog/\" target=\"_self\">Blog</a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".nav-site > li:nth-child(5)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"\"><a href=\"/docs/contribute.html\" target=\"_self\">Contribute</a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".nav-site > li:nth-child(6)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"navSearchWrapper reactNavSearchWrapper\">",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".navSearchWrapper"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li class=\"\"><a href=\"https://github.com/webdriverio/webdriverio\" target=\"_self\">GitHub</a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            ".nav-site > li:nth-child(8)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://developers.google.com/blockly/\" target=\"_blank\"><img src=\"/img/logos/google.png\" alt=\"Google\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(1)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://netflix.com/\" target=\"_blank\"><img src=\"/img/logos/netflix.png\" alt=\"Netflix\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(2)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.microsoft.com/\" target=\"_blank\"><img src=\"/img/logos/microsoft.png\" alt=\"Microsoft\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(3)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.mozilla.org/\" target=\"_blank\"><img src=\"/img/logos/mozilla.png\" alt=\"Mozilla\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(4)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://buoyant.io/\" target=\"_blank\"><img src=\"/img/logos/buoyant.png\" alt=\"Buoyant\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(5)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.sap.com/\" target=\"_blank\"><img src=\"/img/logos/sap.png\" alt=\"SAP\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(6)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.hilton.com/\" target=\"_blank\"><img src=\"/img/logos/hilton.png\" alt=\"Hilton\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(7)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.electronjs.org/spectron\" target=\"_blank\"><img src=\"/img/logos/github.png\" alt=\"GitHub\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "div > ul > li:nth-child(8)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://global.oup.com/\" target=\"_blank\"><img src=\"/img/logos/oxford.png\" alt=\"Oxford University Press\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(9)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.bbva.com/\" target=\"_blank\"><img src=\"/img/logos/bbva.png\" alt=\"BBVA\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(10)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://gopro.com/\" target=\"_blank\"><img src=\"/img/logos/gopro.png\" alt=\"GoPro\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(11)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.algolia.com/\" target=\"_blank\"><img src=\"/img/logos/algolia.png\" alt=\"Algolia\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(12)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.ft.com/\" target=\"_blank\"><img src=\"/img/logos/financialtimes.png\" alt=\"Financial Times\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(13)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.zendesk.com/\" target=\"_blank\"><img src=\"/img/logos/zendesk.png\" alt=\"Zendesk\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(14)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.1und1.de/\" target=\"_blank\"><img src=\"/img/logos/1und1.png\" alt=\"1&amp;1\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(15)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.avira.com/\" target=\"_blank\"><img src=\"/img/logos/avira.png\" alt=\"Avira\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(16)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://deloitte.com\" target=\"_blank\"><img src=\"/img/logos/deloitte.jpg\" alt=\"Deloitte\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(17)"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "listitem",
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+              "relatedNodes": []
+            }
+          ],
+          "html": "<li><a href=\"https://www.rabobank.com/\" target=\"_blank\"><img src=\"/img/logos/rabobank.png\" alt=\"Rabobank\"></a></li>",
+          "impact": null,
+          "none": [],
+          "target": [
+            "li:nth-child(18)"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.structure",
+        "wcag2a",
+        "wcag131"
+      ]
+    }
+  ],
+  "testEngine": {
+    "name": "axe-core",
+    "version": "3.3.2"
+  },
+  "testEnvironment": {
+    "orientationAngle": 0,
+    "orientationType": "landscape-primary",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36",
+    "windowHeight": 600,
+    "windowWidth": 800
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "timestamp": "2020-06-10T11:52:06.638Z",
+  "toolOptions": {
+    "reporter": "v1",
+    "runOnly": {
+      "type": "tag",
+      "values": [
+        "wcag2a"
+      ]
+    }
+  },
+  "url": "https://webdriver.io/",
+  "violations": [
+    {
+      "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+      "help": "Frames must have title attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/frame-title?application=axeAPI",
+      "id": "frame-title",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<iframe src=\"https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwebdriver.io&amp;width=118&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=46&amp;appId=585739831492556\" width=\"118\" height=\"46\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allow=\"encrypted-media\" id=\"fblike\">",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "#fblike"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<iframe src=\"https://ghbtns.com/github-btn.html?user=webdriverio&amp;repo=webdriverio&amp;type=watch&amp;count=true\" height=\"20\" width=\"118\" frameborder=\"0\" scrolling=\"0\" style=\"width:118px;height:20px\"></iframe>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "iframe[height=\"\\32 0\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jOmvPpzLMf8?start=3204\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "iframe[width=\"\\35 60\"]"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag241",
+        "wcag412",
+        "section508",
+        "section508.22.i"
+      ]
+    },
+    {
+      "description": "Ensures every HTML document has a lang attribute",
+      "help": "<html> element must have a lang attribute",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/html-has-lang?application=axeAPI",
+      "id": "html-has-lang",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-lang",
+              "impact": "serious",
+              "message": "The <html> element does not have a lang attribute",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+          "html": "<html lang=\"\">",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "html"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.language",
+        "wcag2a",
+        "wcag311"
+      ]
+    },
+    {
+      "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+      "help": "Images must have alternate text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/image-alt?application=axeAPI",
+      "id": "image-alt",
+      "impact": "critical",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/webdriverio.png\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"webdriverio\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"https://badge.fury.io/js/webdriverio.svg\" data-bindattr-35=\"35\" class=\"retina-badge\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            ".retina-badge"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/teaser/extendable.png\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"extendable\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/teaser/compatible.png\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"compatible\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/teaser/featurerich.png\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"featurerich\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/react-support.png\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"react-support\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/config-utility.gif\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"config-utility\\.gif\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/w3c-wdio-pptr.png\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"w3c-wdio-pptr\\.png\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-alt",
+              "impact": "critical",
+              "message": "Element does not have an alt attribute",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "non-empty-title",
+              "impact": "serious",
+              "message": "Element has no title attribute or the title attribute is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<img src=\"/img/applitools.png\">",
+          "impact": "critical",
+          "none": [],
+          "target": [
+            "img[src$=\"applitools\\.png\"]"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a"
+      ]
+    },
+    {
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.3/link-name?application=axeAPI",
+      "id": "link-name",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element does not have text that is visible to screen readers",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<a href=\"https://badge.fury.io/js/webdriverio\" data-bindattr-34=\"34\"><img src=\"https://badge.fury.io/js/webdriverio.svg\" data-bindattr-35=\"35\" class=\"retina-badge\"></a>",
+          "impact": "serious",
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "a[data-bindattr-34=\"\\33 4\"]"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element does not have text that is visible to screen readers",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<a class=\"hash-link\" href=\"#watch\"></a>",
+          "impact": "serious",
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            ".hash-link"
+          ]
+        },
+        {
+          "all": [],
+          "any": [
+            {
+              "data": null,
+              "id": "has-visible-text",
+              "impact": "minor",
+              "message": "Element does not have text that is visible to screen readers",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-label",
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "aria-labelledby",
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-presentation",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"presentation\"",
+              "relatedNodes": []
+            },
+            {
+              "data": null,
+              "id": "role-none",
+              "impact": "minor",
+              "message": "Element's default semantics were not overridden with role=\"none\"",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+          "html": "<a href=\"https://reactjs.org/\">",
+          "impact": "serious",
+          "none": [
+            {
+              "data": null,
+              "id": "focusable-no-name",
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text",
+              "relatedNodes": []
+            }
+          ],
+          "target": [
+            "p:nth-child(3) > a[href$=\"reactjs\\.org\\/\"]"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag412",
+        "wcag244",
+        "section508",
+        "section508.22.a"
+      ]
+    }
+  ]
+}

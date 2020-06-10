@@ -1,0 +1,13 @@
+{
+  "script": "return (function (options, done) {\n            axe.run(document, options, function (err, results) {\n                if (err)\n                    throw err;\n                done(results);\n            });\n        }).apply(null, arguments)",
+  "args": [
+    {
+      "runOnly": {
+        "type": "tag",
+        "values": [
+          "wcag2a"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591792226316' stop='1591792227483'>
+    <name>Search field in version 2</name>
+    <title>Search field in version 2</title>
+    <test-cases>
+        <test-case start='1591792226316' status='passed' stop='1591792227002'>
+            <name>should be displayed with above 768px</name>
+            <title>should be displayed with above 768px</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591792226317' status='passed' stop='1591792226717'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e7da1038-b5c4-4519-a3a2-6c588b570866-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591792226717' status='passed' stop='1591792226830'>
+                    <name>POST /session/:sessionId/window/current/size</name>
+                    <title>POST /session/:sessionId/window/current/size</title>
+                    <attachments>
+                        <attachment title='Request' source='bc131436-ce6c-49fa-969d-405ed73039b1-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591792226830' status='passed' stop='1591792226931'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bd155abf-8fb9-4fbd-8719-a7244666177f-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='5d37a5d7-0407-4c4a-a4be-bd0f3d55814a-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591792226933' status='passed' stop='1591792227002'>
+                    <name>GET /session/:sessionId/element/0.11969716388901719-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.11969716388901719-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='53fb8bba-5649-4053-a119-4fa2032ceea6-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1591792227002' status='failed' stop='1591792227482'>
+            <name>should be hidden with below 768px</name>
+            <title>should be hidden with below 768px</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591792227003' status='passed' stop='1591792227176'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='545e6b9a-ce47-409b-a45e-0e55dfc7c861-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591792227176' status='passed' stop='1591792227286'>
+                    <name>POST /session/:sessionId/window/current/size</name>
+                    <title>POST /session/:sessionId/window/current/size</title>
+                    <attachments>
+                        <attachment title='Request' source='4a077924-db2c-40ed-909f-1904324e18e3-attachment.json' type='application/json' size='35'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591792227286' status='passed' stop='1591792227370'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='40bc9f5d-3f3e-40b3-856f-bb50a794d01f-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='fd6c11cd-f3f3-49a7-bdef-b68926879a48-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591792227373' status='passed' stop='1591792227454'>
+                    <name>GET /session/:sessionId/element/0.8801171460599462-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.8801171460599462-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='bf018b42-0deb-4e54-bf9f-d5509ca68870-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected true to be false</message>
+                <stack-trace>AssertionError: expected true to be false
+                    at Context.&lt;anonymous> (/Users/bend/Documents/GitHub/WebdriverIO-TypeScript-Boilerplate/test/example.spec.ts:29:42)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

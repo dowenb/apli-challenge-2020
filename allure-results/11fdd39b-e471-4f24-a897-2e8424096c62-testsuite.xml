@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591789921153' stop='1591789926729'>
+    <name>Axe test</name>
+    <title>Axe test</title>
+    <test-cases>
+        <test-case start='1591789921154' status='failed' stop='1591789926728'>
+            <name>Should return results</name>
+            <title>Should return results</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591789921202' status='passed' stop='1591789925858'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ba349040-0099-4c69-9947-49f611f344f2-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591789925858' status='passed' stop='1591789926068'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='c250ffe3-526c-4877-9d38-b84ed0a4974a-attachment.json' type='application/json' size='669105'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591789926069' status='passed' stop='1591789926679'>
+                    <name>POST /session/:sessionId/execute_async</name>
+                    <title>POST /session/:sessionId/execute_async</title>
+                    <attachments>
+                        <attachment title='Request' source='674c4985-bd20-463e-95d0-2c2b03bf41e5-attachment.json' type='application/json' size='388'/>
+                        <attachment title='Response' source='0638da84-134c-40a6-8030-ec95ee7a9735-attachment.json' type='application/json' size='178466'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591789926680' status='passed' stop='1591789926710'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='3618992d-1195-436a-85fc-a7dc90fb2039-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>https://webdriver.io/ doesn't pass Accessibility test: expected 4 to equal 0</message>
+                <stack-trace>AssertionError: https://webdriver.io/ doesn't pass Accessibility test: expected 4 to equal 0
+                    at Context.&lt;anonymous> (/Users/bend/Documents/GitHub/WebdriverIO-TypeScript-Boilerplate/test/accessibility.spec.ts:31:43)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

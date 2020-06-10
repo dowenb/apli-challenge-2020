@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591790112775' stop='1591790114396'>
+    <name>webdriver.io API Docs page</name>
+    <title>webdriver.io API Docs page</title>
+    <test-cases>
+        <test-case start='1591790114290' status='passed' stop='1591790114301'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591790114291' status='passed' stop='1591790114299'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='a33055b7-beaa-44f0-8e4f-46fc32e6762b-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1591790114302' status='passed' stop='1591790114395'>
+            <name>assert edit button</name>
+            <title>assert edit button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1591790114303' status='passed' stop='1591790114339'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c237781b-979b-4347-ba04-ad8a8a5d1f5a-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='66cc42c1-ea34-4434-a6c1-af4ba6cff5b7-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591790114348' status='passed' stop='1591790114395'>
+                    <name>GET /session/:sessionId/element/0.2047339055034345-1/attribute/href</name>
+                    <title>GET /session/:sessionId/element/0.2047339055034345-1/attribute/href</title>
+                    <attachments>
+                        <attachment title='Response' source='ac014f2a-68cc-4058-8c2d-aa65f0134bc3-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
